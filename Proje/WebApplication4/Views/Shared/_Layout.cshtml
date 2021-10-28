@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Prologue - Creative Multipurpose Responsive HTML5 Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="~/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/animate.css" />
+    <link rel="stylesheet" href="~/css/stroke-gap-icons.css" />
+    <link rel="stylesheet" href="~/css/icofont.css" />
+    <link rel="stylesheet" href="~/css/flaticon.css" />
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/css/slick.css">
+    <link rel="stylesheet" href="~/css/lightcase.css">
+    <link rel="stylesheet" href="~/css/lightslider.css">
+
+    <link rel="stylesheet" type="text/css" href="~/css/settings.css">
+    <link rel="stylesheet" href="~/css/preset.css" />
+    <link rel="stylesheet" href="~/css/ignore_for_wp.css" />
+    <link rel="stylesheet" href="~/css/theme.css" />
+    <link rel="stylesheet" href="~/css/responsive.css" />
+
+
+    <link rel="icon" type="image/png" href="~/images/favicon.png">
+
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="la-ball-scale-multiple la-2x">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <section class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-lg-9 d-xs-none d-sm-none d-md-block">
+                    <div class="tb_infos">
+                        <p><i class="icon icon-Phone2"></i>Phone Number : +(123) 4567 890</p>
+                        <p><i class="icon icon-WorldWide"></i>Los Angeles Gournadi, 1230 Bariasl</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                    <div class="tb_social">
+                        <a href="#"><i class="icofont-facebook"></i></a>
+                        <a href="#"><i class="icofont-twitter"></i></a>
+                        <a href="#"><i class="icofont-instagram"></i></a>
+                        <a href="#"><i class="icofont-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <header class="header_01">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-5 col-lg-3">
+                    <div class="logo">
+                        <a asp-area="" asp-controller="home" asp-action="index"><img src="~/images/logo_01.png" alt="Prologue" /></a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-7 d-lg-none d-xl-none">
+                    <div class="header_access_btns">
+                        <div class="shoping_cart">
+                            <a href="#" class="cart_btn"><i class="icon icon-Bag"></i><span>2</span></a>
+                        </div>
+                        <a href="#" class="search_btn"><i class="icon icon-Search"></i></a>
+                        <a href="#" class="pro_btn d-xs-none d-sm-none"><span>Contact Us</span></a>
+                        <a href="#" class="menu_btn"><i class="icofont-navigation-menu"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 noPadding menu-col">
+                    <nav class="mainMenu">
+                        <ul>
+                            <li class=" active">
+                                <a asp-area="" asp-controller="home" asp-action="index">AnaSehife</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="aboutus" asp-action="index">Haqqinda</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="services" asp-action="index">Xidmetler</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="projects" asp-action="index">Layihe  </a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="blog" asp-action="index">Xeberler</a>
+                            </li>
+
+                            <li>
+                                <a asp-area="" asp-controller="contact" asp-action="index">Elaqe</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 extra_width noPaddingLeft d-md-none d-sm-none d-xs-none d-lg-block">
+                    <div class="header_access_btns">
+                        <div class="shoping_cart">
+                            <a href="#" class="cart_btn"><i class="icon icon-Bag"></i><span>2</span></a>
+                        </div>
+                        <a href="#" class="search_btn"><i class="icon icon-Search"></i></a>
+                        <a href="contact_us.html" class="pro_btn"><span>Contact Us</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="popup_search_sec">
+        <div class="popup_search_overlay"></div>
+        <div class="pop_search_background">
+            <div class="middle_search">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <div class="popup_search_form">
+                                <form method="get" action="#" autocomplete="off">
+                                    <input autocomplete="off" type="search" name="s" id="s" placeholder="Type Words and Hit Enter">
+                                    <button type="submit"><i class="icofont-search-2"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   @RenderBody()
+
+
+    <footer class="footer_01">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-3">
+                    <div class="foo_logo">
+                        <a href="index.html"><img src="~/images/logo_01.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-9">
+                    <div class="footer_subscribe_form clearfix">
+                        <div class="fsf_left">
+                            <h2>NewsLetter</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                        <div class="fsf_right">
+                            <form method="post" action="#">
+                                <input type="email" name="sub_email" placeholder="Enter your email">
+                                <button type="submit">Message Us</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pdt77">
+                <div class="col-md-6 col-lg-3">
+                    <aside class="widget about_widget">
+                        <h3 class="widget_title">About Us Company</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.0982182244065!2d89.52715871542085!3d22.798824230373377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff853788a6d85f%3A0x5d8232c0541aefab!2sKhulna%20Zero%20Point%20Panjegana%20Masjid!5e0!3m2!1sen!2sbd!4v1610349648781!5m2!1sen!2sbd"></iframe>
+                    </aside>
+                </div>
+                <div class="col-md-6 col-lg-2 offset-lg-1">
+                    <aside class="widget">
+                        <h3 class="widget_title">Usefull Links</h3>
+                        <ul>
+                            <li><a href="#">Quick Access</a></li>
+                            <li><a href="#">Secure Payment</a></li>
+                            <li><a href="#">24/7 Support</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <aside class="widget">
+                        <h3 class="widget_title">Information</h3>
+                        <ul>
+                            <li><a href="about_us.html">About us</a></li>
+                            <li><a href="contact_us.html">Contact Us</a></li>
+                            <li><a href="portfolio_01.html">Projects</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <aside class="widget">
+                        <h3 class="widget_title">Need Some Help?</h3>
+                        <ul>
+                            <li><a href="service_details.html">Emergency</a></li>
+                            <li><a href="service_details.html">UX Developer</a></li>
+                            <li><a href="service_details.html">Flatter</a></li>
+                            <li><a href="service_details.html">UI Design</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="site_info text-center">
+                        &COPY; Copyright 2021 All Rights Reserved by <a href="#">themewar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <a href="#" id="backtotop"><i class="icofont-bubble-up"></i></a>
+
+
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/jquery-ui.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.appear.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/owl.carousel.filter.js"></script>
+    <script src="~/js/jquery.shuffle.min.js"></script>
+    <script src="~/js/mixer.js"></script>
+    <script src="~/js/tweenmax.min.js"></script>
+    <script src="~/js/slick.js"></script>
+    <script src="~/js/lightcase.js"></script>
+    <script src="~/js/lightslider.min.js"></script>
+    <script src="~/js/gmaps.js"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBJtPMZ_LWZKuHTLq5o08KSncQufIhPU3o"></script>
+    <script src="~/js/jquery.easing.1.3.js"></script>
+    <script src="~/js/circle-progress.js"></script>
+
+    <script src="~/js/jquery.themepunch.tools.min.js"></script>
+    <script src="~/js/jquery.themepunch.revolution.min.js"></script>
+
+    <script src="~/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="~/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="~/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="~/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="~/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="~/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="~/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="~/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="~/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="~/js/theme.js"></script>
+
+</body>
+
+</html>
